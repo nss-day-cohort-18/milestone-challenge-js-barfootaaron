@@ -3,17 +3,23 @@
 
 <head>
 	<title>JavaScript Milestone Challenge</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
 <body>
-	<label for="treeHeight">Enter tree height:</label>
-	<input required id="treeHeight" type="text" name="treeHeight">
+	<h1>Build yourself a tree</h1>
+	<form>
+		<label for="treeHeight">Enter tree height:</label>
+		<input required id="treeHeight" type="text" name="treeHeight"><br>
 
-	<label for="characterInput">Enter character to build your tree:</label>
-	<input required type="text" name="">
+		<label for="characterInput">Enter character to build your tree with:</label>
+		<input required id="characterInput" type="text" name="characterInput"><br>
 
-	<label for="growYourTree">Grow your tree!</label>
-	<input id="growYourTree" type="button" name="growYourTree">
+		<br>
+		<button id="growYourTree" type="button" name="growYourTree">Grow Your Tree!</button>
+
+	</form>
 
 
 	<script type="text/javascript" src="main.js"></script>

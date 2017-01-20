@@ -1,30 +1,4 @@
-# The Static Web: JavaScript Milestone Challenge
-
-## Setup
-
-When you are ready to start the challenge, request the Github Classroom link from your instructor. After you've successfully created the repository on Github for your challenge, execute the following command.
-
-```bash
-mkdir -p ~/workspace/challenges/static-web/javascript && cd $_
-```
-
-1. Your instructor will send you the Github Classroom link that will create a blank repository to hold your challenge.
-1. Once your repository is created, you will see the *Quick Setup* page.
-1. Copy the commands for the section labeled **…or create a new repository on the command line**
-1. Paste those commands into your terminal and press **return** to make sure the last command gets executed.
-1. Now run the following commands.
-
-```
-git checkout -b challenge
-touch index.html
-touch main.js
-```
-
-You are now ready to work in the `challenge` branch.
-
-If you would like to have your work reviewed, push up the branch (git push origin challenge) and submit a pull request on Github. A member of the instruction team will take a look and give feedback. Your work does not need to be complete to receive feedback.
-
-## Instructions
+Instructions
 
 It is absolutely critical that you read each of these requirements because as a professional you will be expected to completely understand what you are expected to do. If you submit code that does not fulfill the requirements, you will be sent to your room with no dinner.
 
@@ -54,7 +28,7 @@ If either of the input fields does not have a value in it when the user presses 
 
 Here's what the pine tree should look like when you specify a height of 7, and use the asterisk character.
 
-```js
+
       *
      ***
     *****
@@ -62,4 +36,4 @@ Here's what the pine tree should look like when you specify a height of 7, and u
   *********
  ***********
 *************
-```
+
