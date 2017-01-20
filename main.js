@@ -21,14 +21,11 @@ function tree(treeRoot) {
 			numOfSpaces -= 1;
 			numOfChars += 2;
 		}
-	} 
-		//alert('Please be sure to enter a value in both fields!')
-
-	}
+	} else {
+		alert('Please be sure to enter a value in both fields!')
+		}
+	}	
 
 //Grow tree when button pushed
 growButton.addEventListener('click', tree);
 
-
-
-tree(treeRoot);
