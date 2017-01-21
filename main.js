@@ -1,9 +1,10 @@
 
-//CREATE VARIABLES
+// Variables
 var treeRoot = {size: 0, char: 0}
 var growButton = document.getElementById("growYourTree");
 
 
+//Create tree function to grow tree based on inputs
 function tree(treeRoot) {
 	var treeHeight = parseInt(document.getElementById('treeHeight').value);
 	var charToUse = document.getElementById('characterInput').value;
@@ -16,8 +17,8 @@ function tree(treeRoot) {
 		for (var i=0; i<treeRoot.size; i++) {
 			var spaces = ' '.repeat(numOfSpaces);
 			var character = treeRoot.char.repeat(numOfChars);
-			var treeDoIt = spaces + character;
-			console.log(treeDoIt);
+			var treeGo = spaces + character;
+			console.log(treeGo);
 			numOfSpaces -= 1;
 			numOfChars += 2;
 		}
@@ -28,4 +29,18 @@ function tree(treeRoot) {
 
 //Grow tree when button pushed
 growButton.addEventListener('click', tree);
+
+document.getElementById('characterInput').addEventListener('keyup', function(e){
+	if (e.which === 13) {
+		tree();
+	}
+});
+
+treeHeight.addEventListener('keyup', function(e){
+	if (e.which === 13) {
+		tree();
+	}
+}); 
+
+
 
